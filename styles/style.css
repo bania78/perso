@@ -140,8 +140,10 @@ p {
 }
 
 .align_pkm {
-  display: flex;
+  display: grid;
+  gap: 20px;
   justify-content: center;
+  grid-auto-flow: column;
 }
 
 .pkm {
